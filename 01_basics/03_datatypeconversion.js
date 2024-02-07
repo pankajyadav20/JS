@@ -15,8 +15,18 @@ console.log(booleanram);*/
 //0=>false
 //""=>false
 // "string"=>true
-let someNumber = 33
+//   ******************
+/*let someNumber = 33
 
 let stringNumber = String(someNumber)
 console.log(stringNumber);
-console.log(typeof stringNumber); 
+console.log(typeof stringNumber); */
+// *****************operations******
+let value=5
+let negvalue = -value
+//console.log(negvalue);
+const id = Symbol('123')
+const anotherId = Symbol('123')
+console.log(id==anotherId)
+console.log(id);
+console.log(anotherId);
